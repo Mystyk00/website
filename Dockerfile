@@ -4,6 +4,6 @@ WORKDIR /usr/share/caddy
 
 COPY . .
 
-EXPOSE 88
+EXPOSE 80
 
 CMD [ "caddy", "run", "--config", "Caddyfile", "--adapter", "caddyfile" ]
